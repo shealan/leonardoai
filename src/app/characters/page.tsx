@@ -38,10 +38,10 @@ const CharactersPage = async ({ searchParams }: PageProps) => {
       justifyContent="start"
     >
       <Image
-        src="/bg-abstract-strip.jpg"
+        src="/bg-abstract-strip.webp"
         alt="Rick & Morty characters looking into space from a deserted planet"
-        width={1024}
-        height={228}
+        width={2048}
+        height={456}
         style={{
           flexShrink: 0,
           height: "auto",

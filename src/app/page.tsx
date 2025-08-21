@@ -54,10 +54,10 @@ export default function Home() {
       p={4}
     >
       <Image
-        src="/bg-abstract.jpg"
+        src="/bg-abstract.webp"
         alt="Rick & Morty characters looking into space from a deserted planet"
-        width={1024}
-        height={1024}
+        width={2048}
+        height={2048}
         style={{
           position: "absolute",
           top: 0,
