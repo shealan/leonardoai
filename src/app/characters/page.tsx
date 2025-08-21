@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   description: "Explore characters from the Rick & Morty universe",
 };
 
-const Directory = async ({ searchParams }: PageProps) => {
+const CharactersPage = async ({ searchParams }: PageProps) => {
   const session = await getSession();
   const { page } = await searchParams;
   const characters = await getCharactersQuery({ page });
@@ -78,4 +78,4 @@ const Directory = async ({ searchParams }: PageProps) => {
   );
 };
 
-export default Directory;
+export default CharactersPage;

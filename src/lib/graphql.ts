@@ -45,6 +45,11 @@ const getCharacters = gql`
   }
 `;
 
+/**
+ * Fetches characters from the Rick & Morty API
+ * @param page - The page number to fetch
+ * @returns The characters
+ */
 export const getCharactersQuery = async ({
   page,
 }: {
