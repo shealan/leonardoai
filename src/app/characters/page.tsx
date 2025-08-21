@@ -51,7 +51,7 @@ const CharactersPage = async ({ searchParams }: PageProps) => {
           objectFit: "cover",
         }}
       />
-      <Container maxW="4xl" p={{ base: 6, lg: 12 }} mx="auto">
+      <Container maxW="5xl" p={{ base: 6, lg: 12 }} mx="auto">
         <VStack gap={8} align="stretch">
           <Stack
             justifyContent="space-between"
